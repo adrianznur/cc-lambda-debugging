@@ -34,7 +34,6 @@ def lambda_handler(event, context=None):
     for char in expr:
 
         if char in ["+", "-", "/", "*"]:
-            # What should you do here?
             pass
         else:
             res.append(char)
