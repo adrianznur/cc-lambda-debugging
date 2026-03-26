@@ -21,5 +21,5 @@ def lambda_handler(event, context=None):
     
     return {
         'statusCode': 200,
-        'body': celsius
+        'body': fahrenheit
     }
